@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+import sys
+import os.path
+import random
+
+def swap(lst, i, j):
+    "Swap letters with index i and index j in list lst"
+    if '"' not in [lst[i], lst[j]]:
+        lst[i], lst[j] = lst[j], lst[i]
+    return lst
+
+def randomswap(lst, i, j):
+    "Randomly swap letters with index i and index j in list lst"
+    if random.randint(0, 1) == 1:
+        swap(lst, i, j)
+    return lst
+
+def obfuscate(w):
+    "Obfuscate word"
+    lst = list(w)
+    if len(lst) > 3:
+        if "'"  in lst:
+            lstend = lst.index("'")
+        else:
+            lstend = len(lst)
+
+        i, j = random.sample(range(1, lstend-1), 2)
+        i2, j2 = random.sample(range(1, lstend-1), 2)
+
+        lst = randomswap(swap(lst, i, j), i2, j2)
+
+    return ''.join(lst)
+
+# Check argv
+try:
+    fname = sys.argv[1]
+except:
+    print("Wrong command!")
+    print("Example: pybbboing.py <file>")
+    sys.exit(1)
+
+# Check file exists
+if not os.path.isfile(fname):
+    print('Cannot find file "' + fname + '"')
+    sys.exit(1)
+
+# Read file line by line
+with open(fname) as f:
+    lines = f.readlines()
+
+# Obfuscate words in lines
+for l in lines:
+    words = []
+    for w in l.split():
+        words.append(obfuscate(w))
+
+    print(' '.join(words))
