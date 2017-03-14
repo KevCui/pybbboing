@@ -22,6 +22,6 @@ pybbboing <file>
 ### Example
 ~$ pybbboing test
 
-Arcocnidg to a resecraher at "Cdmbriage Utiversiny", it dseon't mtaetr in which order the letters in a word aer, the only itpormant tinhg is taht the frist and last leettr be at the rhigt pcela. The rset can be a toatl mess and you can sltil raed it wituoht plborem. This is bseauce the hmaun mind deos not read ervey letter by itlesf but the word as a weloh.
+Accirdong to a reesarcher at "Crmiabdge Univyrsite", it doesn't mttaer in wichh odrer the lettres in a word are, the olny imoprtnat thing is taht the fsrit and lsat leettr be at the rhgit pcale. The rest can be a tatol mses and you can sitll read it wiohtut pmorleb. Tihs is bceause the hmaun mind does not read eervy ltteer by itself but the word as a wohle.
 
-Adcorcing to a reserahcer at "Cambirdge Unitersivy", it deosn't matter in whcih odrer the ltteres in a word aer, the only imponratt thnig is taht the fsirt and lsat letetr be at the rhigt plcea. The rest can be a toatl mess and you can sitll read it wituoht pmrbleo. Tihs is beasuce the hamun mnid deos not read erevy ltteer by itelsf but the wrod as a whelo.
+Accordnig to a rescaerher at Cambrgdie 'iUiversnty', it doesn't meattr in wihch oredr the letters in a word aer, the only iapormtnt tihng is taht the fsirt and last letter be at the rghit plaec. The rset can be a tatol mses and you can siltl raed it whuiott prlboem. Tihs is baceuse the hamun mnid does not raed evrey letter by istelf but the wrod as a whloe.

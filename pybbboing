@@ -21,7 +21,7 @@ def obfuscate(w):
     lst = list(w)
     if len(lst) > 3:
         if "'"  in lst:
-            lstend = lst.index("'")
+            lstend = len(lst) - 1 - lst[::-1].index("'")
         else:
             lstend = len(lst)
 
